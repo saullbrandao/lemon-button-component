@@ -1,0 +1,96 @@
+.lemonButton {
+  --button-color-primary: #026c00;
+  --button-color-primary-hover: #079504;
+  --button-color-primary-disabled: #b7d0b6;
+  --button-color-primary-pressed: #013c00;
+
+  --button-color-secondary: #f7c346;
+  --button-color-secondary-hover: #ffdf77;
+  --button-color-secondary-disabled: #ffe58d;
+  --button-color-secondary-pressed: #dcac0d;
+
+  --button-height: 56px;
+  --button-width: 100%;
+  --button-min-width: 311px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: var(--button-height);
+  width: var(--button-width);
+  min-width: var(--button-min-width);
+  padding: 19px 16px 20px;
+
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 16px;
+
+  border: none;
+  cursor: pointer;
+}
+
+.lemonButton span {
+  flex-grow: 1;
+}
+
+.lemonButton:disabled {
+  cursor: not-allowed;
+}
+
+.withIcon {
+  justify-content: space-between;
+  padding: 15px 16px 17px;
+  line-height: 24px;
+  gap: 16px;
+}
+
+.withIcon span {
+  text-align: left;
+}
+
+.primary {
+  background-color: var(--button-color-primary);
+  color: #ffffff;
+}
+
+.primary svg {
+  fill: #ffffff;
+}
+
+.primary:hover {
+  background-color: var(--button-color-primary-hover);
+}
+
+.primary:active {
+  background-color: var(--button-color-primary-pressed);
+}
+
+.primary:disabled {
+  background-color: var(--button-color-primary-disabled);
+}
+
+.secondary {
+  background-color: var(--button-color-secondary);
+  color: #000000;
+}
+
+.secondary svg {
+  fill: #000000;
+}
+
+.secondary:hover {
+  background-color: var(--button-color-secondary-hover);
+}
+
+.secondary:active {
+  background-color: var(--button-color-secondary-pressed);
+}
+
+.secondary:disabled {
+  background-color: var(--button-color-secondary-disabled);
+  color: #ffffff;
+}
+
+.secondary:disabled svg {
+  fill: #ffffff;
+}
