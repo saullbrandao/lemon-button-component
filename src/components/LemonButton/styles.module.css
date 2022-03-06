@@ -21,7 +21,7 @@
   min-width: var(--button-min-width);
   padding: 19px 16px 20px;
 
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   line-height: 16px;
 

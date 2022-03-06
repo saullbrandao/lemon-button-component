@@ -4,6 +4,7 @@ body {
   margin: 0;
   height: 100%;
   background-color: #ebeadf;
+  font-family: Inter, sans-serif;
 }
 
 @font-face {
