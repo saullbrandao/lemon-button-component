@@ -1,4 +1,4 @@
-import { ButtonHTMLAttributes, MouseEventHandler, ReactNode } from 'react'
+import type { ButtonHTMLAttributes, ReactNode } from 'react'
 
 interface CommonButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   color: 'primary' | 'secondary'
