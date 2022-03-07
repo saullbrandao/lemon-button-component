@@ -26,9 +26,11 @@
 - [About the project](#about-the-project)
 - [Technologies](#technologies)
 - [Getting started](#getting-started)
+  - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 
-# :page_with_curl: About the Project
+
+# About the Project
 
 ### **state**
 
@@ -47,7 +49,7 @@
 - `disabled` (boolean): when true, disables the button. **Default:** `false`.
 - `children` (`React.ReactNode`?): button content. **Optional.**
 
-# :computer: Technologies
+# Technologies
 
 - [React](https://github.com/facebook/react)
 - [Next.js](https://github.com/vercel/next.js)
@@ -55,7 +57,7 @@
 - [Jest](https://github.com/facebook/jest)
 - [React Testing Library](https://github.com/testing-library/react-testing-library)
 
-# :rocket: Getting Started
+# Getting Started
 
 ## Prerequisites
 
